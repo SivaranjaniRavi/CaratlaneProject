@@ -21,7 +21,6 @@ public class BasePage
 			WebDriverWait wait=new WebDriverWait(driver,10);
 			wait.until(ExpectedConditions.titleIs(etitle));
 			Reporter.log("Title is matching:"+etitle, true);
-			Assert.fail();
 		}
 		catch(Exception e)
 		{
