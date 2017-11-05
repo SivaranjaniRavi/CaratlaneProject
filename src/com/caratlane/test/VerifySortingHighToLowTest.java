@@ -9,19 +9,16 @@ import com.caratlane.page.HomePage;
 import com.caratlane.page.JewelleryPage;
 
 @Listeners(com.caratlane.generic.ListenersTest.class)
-public class VerifySortingTest extends BaseTest
+public class VerifySortingHighToLowTest extends BaseTest
 {
 @Test
-public void testVerifyingSort()
+public void testVerifySortingHighToLow() throws InterruptedException
 {
-	String value=ExcelData.getData(path,"Sheet1", 2,0);
-	String hptitle=ExcelData.getData(path,"Sheet1", 0, 0);
 	String jptitle=ExcelData.getData(path,"Sheet1", 1, 0);
 	HomePage hp=new HomePage(driver);
 	JewelleryPage jp=new JewelleryPage(driver);
-	//hp.verifyingTitle(hptitle);
 	hp.clickOnJewelley();
 	jp.verifyingTitle(jptitle);
-	jp.sortJewellery(value);
-}
+	jp.sortHighToLowJewellery();
+	}
 }

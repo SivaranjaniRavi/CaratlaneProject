@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28991" started-at="2017-11-04T07:34:09Z" finished-at="2017-11-04T07:34:38Z">
+  <suite name="Default suite" duration-ms="24201" started-at="2017-11-05T13:25:11Z" finished-at="2017-11-05T13:25:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28991" started-at="2017-11-04T07:34:09Z" finished-at="2017-11-04T07:34:38Z">
+    <test name="Default test" duration-ms="24201" started-at="2017-11-05T13:25:11Z" finished-at="2017-11-05T13:25:35Z">
       <class name="com.caratlane.test.VerfyBySigningUpTest">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.caratlane.test.VerfyBySigningUpTest@7dc7cbad]" name="preCondition" is-config="true" duration-ms="15098" started-at="2017-11-04T13:04:09Z" finished-at="2017-11-04T13:04:24Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.caratlane.test.VerfyBySigningUpTest@7dc7cbad]" name="preCondition" is-config="true" duration-ms="10546" started-at="2017-11-05T18:55:11Z" finished-at="2017-11-05T18:55:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="FAIL" signature="testVerifyingSignUp()[pri:0, instance:com.caratlane.test.VerfyBySigningUpTest@7dc7cbad]" name="testVerifyingSignUp" duration-ms="12500" started-at="2017-11-04T13:04:24Z" finished-at="2017-11-04T13:04:37Z">
+        <test-method status="FAIL" signature="testVerifyingSignUp()[pri:0, instance:com.caratlane.test.VerfyBySigningUpTest@7dc7cbad]" name="testVerifyingSignUp" duration-ms="12559" started-at="2017-11-05T18:55:21Z" finished-at="2017-11-05T18:55:34Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='My Account']"}
@@ -22,8 +22,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
 System info: host: 'SIVARANJANI', ip: '169.254.254.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ARULKU~1\AppData\Local\Temp\scoped_dir8276_8823}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 80c22137ca6e2ca13edfed4160209c45
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ARULKU~1\AppData\Local\Temp\scoped_dir8916_8180}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1f35c9e76c44668240725a9aa46825b5
 *** Element info: {Using=xpath, value=//a[.='My Account']}]]>
             </message>
             <full-stacktrace>
@@ -35,8 +35,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
 System info: host: 'SIVARANJANI', ip: '169.254.254.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ARULKU~1\AppData\Local\Temp\scoped_dir8276_8823}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 80c22137ca6e2ca13edfed4160209c45
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ARULKU~1\AppData\Local\Temp\scoped_dir8916_8180}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1f35c9e76c44668240725a9aa46825b5
 *** Element info: {Using=xpath, value=//a[.='My Account']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -58,7 +58,7 @@ Session ID: 80c22137ca6e2ca13edfed4160209c45
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy10.click(Unknown Source)
 	at com.caratlane.page.HomePage.clickOnMyAccount(HomePage.java:33)
-	at com.caratlane.test.VerfyBySigningUpTest.testVerifyingSignUp(VerfyBySigningUpTest.java:19)
+	at com.caratlane.test.VerfyBySigningUpTest.testVerifyingSignUp(VerfyBySigningUpTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -90,7 +90,7 @@ Session ID: 80c22137ca6e2ca13edfed4160209c45
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyingSignUp -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.caratlane.test.VerfyBySigningUpTest@7dc7cbad]" name="postCondition" is-config="true" duration-ms="305" started-at="2017-11-04T13:04:38Z" finished-at="2017-11-04T13:04:38Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.caratlane.test.VerfyBySigningUpTest@7dc7cbad]" name="postCondition" is-config="true" duration-ms="171" started-at="2017-11-05T18:55:35Z" finished-at="2017-11-05T18:55:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
