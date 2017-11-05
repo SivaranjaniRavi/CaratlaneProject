@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.caratlane.test.VerifySortingTest">
+      <class name="com.caratlane.test.VerfyBySigningUpTest">
         <methods>
           <include name="postCondition"/>
-          <include name="testVerifyingSort"/>
           <include name="preCondition"/>
+          <include name="testVerifyingSignUp"/>
         </methods>
-      </class> <!-- com.caratlane.test.VerifySortingTest -->
+      </class> <!-- com.caratlane.test.VerfyBySigningUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,9 +3,9 @@ package com.caratlane.generic;
 public interface AutoConstant 
 {
 	String GECKO_KEY="webdriver.gecko.driver";
-	String GECKO_VALUE="/home/tyss/Desktop/softwares/geckodriver";
+	String GECKO_VALUE="./drivers/geckodriver.exe";
 	String CHROME_KEY="webdriver.chrome.driver";
-	String CHROME_VALUE="/home/tyss/Desktop/softwares/chromedriver";
-	String path="/home/tyss/sivaranjani/Caratlane/CaratlaneInputs.ods";
+	String CHROME_VALUE="./drivers/chromedriver.exe";
+	String path="./data/caratlaneinputs.xlsx";
 	
 }

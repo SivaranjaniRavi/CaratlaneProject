@@ -14,12 +14,12 @@ public class VerifySortingTest extends BaseTest
 @Test
 public void testVerifyingSort()
 {
-	String value=ExcelData.getData(path,"Sheet1", 3, 0);
-	String hptitle=ExcelData.getData(path,"Sheet1", 1, 0);
-	String jptitle=ExcelData.getData(path,"Sheet1", 2, 0);
+	String value=ExcelData.getData(path,"Sheet1", 2,0);
+	String hptitle=ExcelData.getData(path,"Sheet1", 0, 0);
+	String jptitle=ExcelData.getData(path,"Sheet1", 1, 0);
 	HomePage hp=new HomePage(driver);
 	JewelleryPage jp=new JewelleryPage(driver);
-	hp.verifyingTitle(hptitle);
+	//hp.verifyingTitle(hptitle);
 	hp.clickOnJewelley();
 	jp.verifyingTitle(jptitle);
 	jp.sortJewellery(value);

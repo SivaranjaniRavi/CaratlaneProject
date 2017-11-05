@@ -12,12 +12,14 @@ public class JewelleryPage extends BasePage
 {
 @FindBy(xpath="//div[@class='sort__options']")
 private WebElement sort;
+@FindBy(xpath="(//img[@class='responsively-lazy hover__img'])[1]")
+private WebElement product;
+
 public JewelleryPage(WebDriver driver)
 {
 	super(driver);
 	PageFactory.initElements(driver,this);
 }
-
 
 public void verifyingTitle(String etitle)
 {
@@ -26,5 +28,9 @@ public void verifyingTitle(String etitle)
 public void sortJewellery(String value)
 {
 	GenericUtils.selectByValue(sort, value);
+}
+public void clickOnProduct()
+{
+product.click();	
 }
 }
